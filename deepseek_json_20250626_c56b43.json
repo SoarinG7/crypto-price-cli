@@ -1,0 +1,15 @@
+{
+  "name": "crypto-price-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to check crypto prices",
+  "main": "index.js",
+  "bin": {
+    "crypto-price": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3"
+  },
+  "license": "MIT"
+}
